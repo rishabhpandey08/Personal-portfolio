@@ -92,7 +92,7 @@
                       165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
                       129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
                      -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" /> -->
-                                <image class="home__blob-img" x="-79" y="-15" xlink:href="Pro.jpg" />
+                            <image class="home__blob-img" x="-79" y="-15" xlink:href="Pro.jpg" />
                             <!-- </g> -->
                         </svg>
                     </div>
@@ -502,20 +502,21 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">
-                                DarkSurfer-Extension
+                                StayEase - Simple Easy Stays
                             </h3>
                             <p class="portfolio__description">
-                                DarkSurfer-Extension, is a project based on the application of advanced Language Models
-                                LMs to detect and eliminate dark patterns on websites. It aims to improve
-                                user-awareness, exposing real-time of devious design practices in situ. It helps make
-                                the internet more user-friendly by using its novel LMs and popular LM-based models, such
-                                as RoBERTa, BERT, and XLNet.
+                                StayEase is a full-stack web application inspired by Airbnb that allows users 
+                                to explore, list, and book accommodations easily. Built using the MERN stack 
+                                (MongoDB, Express.js, React.js, Node.js), the platform provides features such as 
+                                user authentication, property listings, image uploads with Cloudinary, and secure 
+                                booking management. The project focuses on delivering a responsive and user-friendly 
+                                experience while demonstrating real-world full-stack development practices.
                             </p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
+                            <a href="https://github.com/rishabhpandey08/StayEase-FullStack" class="button button--flex button--small portfolio__button">
                                 GitHub Repository
                                 <i class="uil uil-external-link-alt button__icon"></i>
                             </a>
-                            <a href="https://darksurfer.streamlit.app/"
+                            <a href="https://stay-ease-full-stack-wsl1.vercel.app/"
                                 class="button button--flex button--small portfolio__button">
                                 See Live
                                 <i class="uil uil-external-link-alt button__icon"></i>
@@ -604,8 +605,8 @@
                     </div>
 
                     <!-- ------------------------portfollio 5-------------------- -->
-                     <div class="portfolio__content grid swiper-slide">
-                      <!--  <img src="portfolio4.png" class="portfolio__img" />
+                    <div class="portfolio__content grid swiper-slide">
+                        <!--  <img src="portfolio4.png" class="portfolio__img" />
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Sorting Visualizer</h3>
@@ -628,18 +629,18 @@
                                 <i class="uil uil-external-link-alt button__icon"></i>
                             </a>
                         </div> -->
+                    </div>
                 </div>
-            </div>
 
-            <!-- add arrows -->
-            <div class="swiper-button-next">
-                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-            </div>
-            <div class="swiper-button-prev">
-                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-            </div>
-            <!-- add pagination -->
-            <div class="swiper-pagination"></div>
+                <!-- add arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <!-- add pagination -->
+                <div class="swiper-pagination"></div>
             </div>
         </section>
 
@@ -678,31 +679,32 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="https://formspree.io/f/xjgawbpp" method="POST" class="contact__form grid">
+
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="" class="content__label">Name</label>
-                            <input type="text" class="contact__input" />
+                            <label class="content__label">Your Name</label>
+                            <input type="text" name="name" class="contact__input" required>
                         </div>
 
                         <div class="contact__content">
-                            <label for="" class="content__label">Email</label>
-                            <input type="Email" class="contact__input" />
+                            <label class="content__label">Your Email</label>
+                            <input type="email" name="email" class="contact__input" required>
                         </div>
                     </div>
 
                     <div class="contact__content">
-                        <label for="" class="content__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <label class="content__label">Write your message...</label>
+                        <textarea name="message" rows="7" class="contact__input" required></textarea>
                     </div>
 
                     <div>
-                        <a href=" mailto: rishabhpandeyco@gmail.com?subject=Testing out mailto! &body=This is only a test!"
-                            class="button button--flex">
+                        <button type="submit" class="button button--flex">
                             Send Message
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                        </button>
                     </div>
+
                 </form>
             </div>
         </section>
