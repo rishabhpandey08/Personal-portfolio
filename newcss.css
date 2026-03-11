@@ -351,10 +351,14 @@ img {
   margin-bottom: 10px;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
+  background: linear-gradient(135deg,#6c63ff,#4a47d5);
+  transition: 0.3s;
 }
 
 .button:hover {
   background-color: var(--first-color-alt);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
 }
 
 .button__icon {
